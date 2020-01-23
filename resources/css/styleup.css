@@ -1,0 +1,18 @@
+html,body{
+    height: 100vh;
+}
+section{
+    height: 100%;
+    height: -webkit-fill-available;
+}
+
+div>input , div>textarea{
+    border-radius: 0.5rem !important;
+}
+div.custom-file>label, div>input[type=file]{
+    border-radius: 0.5rem !important;
+}
+.success{
+    background-color: #33CC66 !important;
+    border-color: #33CC66 !important;
+}
