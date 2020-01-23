@@ -19,4 +19,11 @@ var formManipulator = ()=>{
         }, 1000);
         
     });
+    
+    $("#back").on("click",(e)=>{
+        setTimeout((e)=>{
+            form1.slideDown("slow");
+            form2.fadeOut("slow");
+        },500);        
+    });
 }
